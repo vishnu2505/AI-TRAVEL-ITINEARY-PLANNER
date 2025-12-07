@@ -65,7 +65,7 @@ with st.form("planner_form"):
         )
 
     with col4:
-        teams = st.text_input("🏆 Specific Teams (Optional)", placeholder="e.g. USA vs Italy")
+        teams = st.text_input("🏆 Specific Teams (Optional)", placeholder="e.g. France vs Norway")
 
     # Row 3: Optional Extras 
     with st.expander("✨ Optional: Customize your interests"):
